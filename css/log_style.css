@@ -1,0 +1,64 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	background: radial-gradient(#ddd 0%, #fff 100%);
+	
+	/*background: radial-gradient(#1c6f9f 0%, #134d6e 90%);*/
+}
+.padding{
+	padding: 50px 15px;
+}
+.login{
+    margin-top:50px;
+	min-height: 200px;
+	padding: 20px;
+	border-radius: 2px;
+}
+.logo{
+	text-align: center;
+}
+.logo img{
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+}
+.icon-field{
+	width: 40px;
+	font-size: 1.5em;
+	color: #5e6e82;
+	position: absolute;
+}
+.icon-field i{
+	position: relative;
+	top: 10px;
+	left: 15px;
+}
+.login_name{
+	font-size: 1.5em;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-weight: 500;
+}
+.login input{
+	background: #FFF;
+	padding-left: 40px;
+	font-size: 1.2em;
+	height: 50px;
+	border-radius: 25px;
+	border:none;
+	border: 1px solid #ddd;
+	box-shadow: none;
+	font-family: 'Roboto', sans-serif;
+}
+.login input:focus{
+	box-shadow: none;
+}
+.login .batt
+{
+	padding: 0px 50px;
+	background: #9933cc;
+	border: none;
+	border-radius: 25px;
+	color: #FFF;
+	font-weight: 500;
+}
